@@ -1,0 +1,5 @@
+flask
+requests
+dnspython
+python-whois
+jinja2

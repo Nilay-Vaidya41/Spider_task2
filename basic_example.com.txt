@@ -1,0 +1,56 @@
+{
+  "Subdomains": [
+    "*.example.com\nexample.com",
+    "*.example.com\nexample.com\nm.example.com\nwww.example.com",
+    "AS207960 Test Intermediate - example.com",
+    "dev.example.com\nexample.com\nproducts.example.com\nsupport.example.com\nwww.example.com",
+    "example.com\nm.testexample.com\nwww.example.com",
+    "example.com\nuser@example.com",
+    "example.com\nwww.example.com",
+    "subjectname@example.com"
+  ],
+  "DNS Records": {
+    "A": [
+      "23.192.228.80",
+      "23.192.228.84",
+      "23.215.0.136",
+      "23.215.0.138",
+      "96.7.128.175",
+      "96.7.128.198"
+    ],
+    "MX": [
+      "."
+    ],
+    "NS": [
+      "a.iana-servers.net.",
+      "b.iana-servers.net."
+    ]
+  },
+  "WHOIS Info": "{\n  \"domain_name\": \"EXAMPLE.COM\",\n  \"registrar\": \"RESERVED-Internet Assigned Numbers Authority\",\n  \"registrar_url\": \"http://res-dom.iana.org\",\n  \"reseller\": null,\n  \"whois_server\": \"whois.iana.org\",\n  \"referral_url\": null,\n  \"updated_date\": \"2024-08-14 07:01:34\",\n  \"creation_date\": \"1995-08-14 04:00:00\",\n  \"expiration_date\": \"2025-08-13 04:00:00\",\n  \"name_servers\": [\n    \"A.IANA-SERVERS.NET\",\n    \"B.IANA-SERVERS.NET\"\n  ],\n  \"status\": [\n    \"clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited\",\n    \"clientTransferProhibited https://icann.org/epp#clientTransferProhibited\",\n    \"clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited\"\n  ],\n  \"emails\": null,\n  \"dnssec\": \"signedDelegation\",\n  \"name\": null,\n  \"org\": null,\n  \"address\": null,\n  \"city\": null,\n  \"state\": null,\n  \"registrant_postal_code\": null,\n  \"country\": null\n}",
+  "HTTP Headers": {
+    "Accept-Ranges": "bytes",
+    "Content-Type": "text/html",
+    "ETag": "\"84238dfc8092e5d9c0dac8ef93371a07:1736799080.121134\"",
+    "Last-Modified": "Mon, 13 Jan 2025 20:11:20 GMT",
+    "Vary": "Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "Cache-Control": "max-age=1585",
+    "Date": "Mon, 23 Jun 2025 17:45:21 GMT",
+    "Content-Length": "648",
+    "Connection": "keep-alive"
+  },
+  "robots.txt": "<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <style type=\"text/css\">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n        \n    }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 2em;\n        background-color: #fdfdff;\n        border-radius: 0.5em;\n        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);\n    }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n    }\n    @media (max-width: 700px) {\n        div {\n            margin: 0 auto;\n            width: auto;\n        }\n    }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.</p>\n    <p><a href=\"https://www.iana.org/domains/example\">More information...</a></p>\n</div>\n</body>\n</html>\n",
+  "sitemap.xml": "<!doctype html>\n<html>\n<head>\n    <title>Example Domain</title>\n\n    <meta charset=\"utf-8\" />\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <style type=\"text/css\">\n    body {\n        background-color: #f0f0f2;\n        margin: 0;\n        padding: 0;\n        font-family: -apple-system, system-ui, BlinkMacSystemFont, \"Segoe UI\", \"Open Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n        \n    }\n    div {\n        width: 600px;\n        margin: 5em auto;\n        padding: 2em;\n        background-color: #fdfdff;\n        border-radius: 0.5em;\n        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);\n    }\n    a:link, a:visited {\n        color: #38488f;\n        text-decoration: none;\n    }\n    @media (max-width: 700px) {\n        div {\n            margin: 0 auto;\n            width: auto;\n        }\n    }\n    </style>    \n</head>\n\n<body>\n<div>\n    <h1>Example Domain</h1>\n    <p>This domain is for use in illustrative examples in documents. You may use this\n    domain in literature without prior coordination or asking for permission.</p>\n    <p><a href=\"https://www.iana.org/domains/example\">More information...</a></p>\n</div>\n</body>\n</html>\n",
+  "GeoIP": {
+    "ip": "23.215.0.136",
+    "hostname": "a23-215-0-136.deploy.static.akamaitechnologies.com",
+    "city": "Ashburn",
+    "region": "Virginia",
+    "country": "US",
+    "loc": "39.0437,-77.4875",
+    "org": "AS20940 Akamai International B.V.",
+    "postal": "20147",
+    "timezone": "America/New_York",
+    "readme": "https://ipinfo.io/missingauth"
+  }
+}

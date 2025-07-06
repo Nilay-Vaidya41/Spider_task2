@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recon Toolkit - Web UI</title>
+</head>
+<body style="font-family: Arial; padding: 20px;">
+  <h1>Recon Toolkit - Web UI</h1>
+  <form method="POST">
+    <label>Domain:</label>
+    <input type="text" name="domain" required><br><br>
+
+    <label>Select Modules:</label><br>
+    <input type="checkbox" name="modules" value="subdomains"> Subdomains<br>
+    <input type="checkbox" name="modules" value="dns"> DNS Records<br>
+    <input type="checkbox" name="modules" value="whois"> WHOIS Lookup<br>
+    <input type="checkbox" name="modules" value="headers"> HTTP Headers<br>
+    <input type="checkbox" name="modules" value="geoip"> GeoIP<br>
+    <input type="checkbox" name="modules" value="portscan"> Port Scan (Nmap)<br>
+    <input type="checkbox" name="modules" value="tech"> Technology Detection<br>
+    <input type="checkbox" name="modules" value="emails"> Email Harvesting<br>
+    <input type="checkbox" name="modules" value="waf"> WAF/CDN Detection<br>
+    <input type="checkbox" name="modules" value="vulnscan"> Vulnerability Scan (Nikto)<br>
+    <input type="checkbox" name="modules" value="screenshots"> Subdomain Screenshots<br>
+
+    <br>
+    <input type="submit" value="Run Recon">
+  </form>
+</body>
+</html>

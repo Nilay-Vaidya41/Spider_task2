@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Recon Report - {{ domain }}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    pre {
+      background: #eee;
+      padding: 10px;
+      overflow-x: auto;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Recon Report: {{ domain }}</h1>
+
+  {% for section, data in results.items() %}
+    <div class="section">
+      <h2>{{ section }}</h2>
+      {% if section == "Screenshots" %}
+        {% for image in data %}
+          <div><img src="{{ image }}" alt="{{ image }}"></div>
+        {% endfor %}
+      {% elif data is string %}
+        <pre>{{ data }}</pre>
+      {% else %}
+        <pre>{{ data | tojson(indent=2) }}</pre>
+      {% endif %}
+    </div>
+  {% endfor %}
+</body>
+</html>
